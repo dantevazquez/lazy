@@ -1,11 +1,16 @@
 return {
   { "ellisonleao/gruvbox.nvim" },
+  {
+    "navarasu/onedark.nvim",
+    opts = {
+      style = "warm",
+    },
+  },
 
-  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "onedark",
     },
   },
 }
